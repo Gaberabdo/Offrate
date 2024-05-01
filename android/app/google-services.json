@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1016824936796",
+    "project_id": "sales-b43bd",
+    "storage_bucket": "sales-b43bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016824936796:android:87ad558837044ff5536999",
+        "android_client_info": {
+          "package_name": "com.example.sell_4_u"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXyZc2nRMVbj5OuGPNneCJrykjUeFDKgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
