@@ -333,6 +333,7 @@ class FeedsCubit extends Cubit<FeedsState> {
       time: formattedDate,
       uId: uId,
       fave: true,
+      title: titleController.text,
       isOffer: isOffer,
       numberOfDay: 30,
       view: 0,
@@ -508,6 +509,8 @@ class FeedsCubit extends Cubit<FeedsState> {
   TextEditingController SubCatController = TextEditingController();
   TextEditingController locationController = TextEditingController();
   TextEditingController priceController = TextEditingController();
+  TextEditingController titleController = TextEditingController();
+
 
   var formKey = GlobalKey<FormState>();
   bool? isLoading;
