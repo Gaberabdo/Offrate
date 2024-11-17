@@ -38,9 +38,6 @@ class _ResultScreenState extends State<ResultScreen> {
                   !isError
                       ? 'Success! Transaction successful.'
                       : ' Error! Transaction failed. ',
-                  style: Theme.of(context).textTheme.subtitle1?.copyWith(
-                        color: isError ? Colors.red : Colors.green,
-                      ),
                 ),
                 if (widget.response is Map &&
                     widget.response.containsKey('resultCode')) ...{
