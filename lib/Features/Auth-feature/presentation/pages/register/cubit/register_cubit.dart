@@ -31,7 +31,7 @@ class RegisterCubit extends Cubit<RegisterState> {
       if (result.status == LoginStatus.success) {
         final AccessToken? accessToken = result.accessToken;
         final AuthCredential credential =
-        FacebookAuthProvider.credential(accessToken!.token);
+        FacebookAuthProvider.credential(accessToken!.tokenString);
 
         final UserCredential userCredential =
         await FirebaseAuth.instance.signInWithCredential(credential);
